@@ -1,0 +1,28 @@
+---
+name: StaffNotifier
+author:  BoxOfDevs Team
+version: 1.0
+api: [2.0.0]
+main: BoxOfDevs\StaffNotifier\Main
+commands: 
+    setwelcomemessage:
+     description: "Set the welcome message"
+     usage: "/swm <welcome message>"
+     permission: sn.command.swm
+     aliases: [swm]
+permissions: 
+   is.op:
+      default: op
+   is.admin:
+      default: false
+   is.owner:
+      default: false
+   is.mod:
+      default: op
+   is.builder:
+      default: op
+   is.youtube:
+      default: false
+   sn.command.swm:
+      default: op
+...

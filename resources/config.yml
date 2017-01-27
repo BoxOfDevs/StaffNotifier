@@ -1,0 +1,4 @@
+---
+# Config for StaffNotifier
+WelcomeMessage: "Welcome {player} to {motd}! Current staffs online: {owners}, {admins}, {ops},  {mods}"
+...
